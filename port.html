@@ -4,59 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav>
-        <!-- Navigation Bar with links to else where on page stays in fixed position at top of screen-->
-        <header id=>
-            <h1>my portfolio</h1>
+    <header>
+        <h1>my portfolio</h1>
+
+        <section class="picture">
+            <img src="./assets/pic-of-me.jpg" alt="its a pic of me">
+        </section>
+        
+            <section>
             <ul>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="#aboutme">About Me</a>
                 </li>
                 <li>
-                    <a href="">Work</a>
+                    <a href="#work">Work</a>
                 </li>
-                <li>
-                    <a href="">GitHub</a>
-                </li>
+
             </ul>
-        </header>
-    </nav>
-    
-    <section id="aboutme">
+            </section>
+    </header>
+    <main>
+        <section id="aboutme">
         <!-- about me section-->
-        <h2>About Me</h2>
-    </section>
-    <section id="work">
+            <aside>
+            <h2>About Me</h2>
+            </aside>
+            <section>
+            <p>stuff about me in a paragraph that i will type out later after i have the basic structure of how this web application will look sorted out.</p>
+            <p>hopefully if i add enough writting within this box the structure of the web application will begin to work properly</p>
+            <p>i doubt it will but you never know</p>
+            </section>
+        </section>
+        <section class="card" id="work">
         <!-- picture links to work examples-->
-        <a href=""><img src="./assets/code.jpg" alt="">1</a>
-        <a href=""><img src="./assets/rocks.jpg" alt="">2</a>
-        <a href=""><img src="./assets/software-developer.jpg" alt="">3</a>
-        <a href=""><img src="./assets/GitHub.jpg" alt="">4</a>
-        <a href=""><img src="" alt="">5</a>
-    </section>
-    <footer id="Contact">
+            <aside>
+                <h2>Work</h2>
+            </aside>
+            <section class="card-1">
+                <a href="https://ydennekrf.github.io/Magenta-K/" target="_blank"><img src="./assets/code.jpg" alt="code.jpg"></a>
+                <p>Refactor: HTML / CSS</p>
+            </section>
+            <div class="applications">
+                <section class="card-2">
+                    <a href="https://github.com/Ydennekrf/Node-rockpaperscissors" target="_blank"><img src="./assets/rocks.jpg" alt="rocks.jpg"></a>
+                    <p>Rock,Paper,Scissors: Javascript</p>
+                </section>
+                <section class="card-2">
+                    <a href="https://github.com/Ydennekrf/super-encoder" target="_blank"><img src="./assets/software-developer.jpg" alt="software developer.jpg"></a>
+                    <p>Super encoder: Node.js</p>
+                </section>
+                <section class="card-2">
+                    <a href="https://github.com/Ydennekrf/magic-8ball" target="_blank"><img src="./assets/frog.jpg" alt="frog.jpg"></a>
+                    <p>Magic 8 ball: Javascript</p>
+                </section>
+                <section class="card-2">
+                    <a href="https://github.com/Ydennekrf/work-around-explorer" target="_blank"><img src="./assets/trees.jpg" alt="trees.jpg"></a>
+                    <p>Work around explorer: Javascript</p>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
         <!-- contact information-->
+        
         <h3>Contact Information</h3>
+        
+    <div class="contact-div">
         <ul>
             <li>
-                <p></p>
+                phone: 416-888-8888
             </li>
             <li>
-                <p></p>
+                email
             </li>
             <li>
-                <p></p>
+                location
             </li>
             <li>
-                <a href=""></a>
+                <a href="">GitHub</a>
             </li>
         </ul>
+    </div>
     </footer>
 </body>
 </html>

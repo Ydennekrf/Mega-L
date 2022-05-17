@@ -6,7 +6,7 @@
 
 ## Installation
 
-  The website can be viewed through GitHub pages [here](https://ydennekrf.github.io/Mega-L/port.html)
+  The website can be viewed through GitHub pages [here](https://ydennekrf.github.io/Mega-L/index.html)
 
 ## Mock up
   

@@ -12,7 +12,7 @@
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       
+    border: solid 1px red;
 }
 body { 
     background-color: var(--background-color);
